@@ -7,7 +7,7 @@ while(True):
     deger,kare=yakala.read()
     cv2.imshow("Yusufun Webcami",kare)
     
-    if cv2.waitKey(1)&0xFF==ord("q"):
+    if cv2.waitKey(1)&0xFF==ord("q"):  #q tuşuna basarsanız program kapanacaktır.
         break
     
 yakala.release()
